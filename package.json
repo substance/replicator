@@ -1,0 +1,23 @@
+{
+  "name": "substance-replicator",
+  "description": "Replicates substance documents",
+  "keywords": ["substance", "replicator"],
+  "author": "Oliver Buchtala",
+  "contributors": ["Michael Aufreiter"],
+  "version": "0.1.0-alpha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/substance/replicator.git"
+  },
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "dependencies": {
+    "underscore": "1.5.x",
+    "substance-util": "0.2.0-alpha",
+    "substance-test": "0.2.0-alpha"
+  },
+  "scripts": {
+    "test": "mocha -R spec tests/run.js"
+  }
+}
